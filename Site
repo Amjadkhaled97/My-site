@@ -1,7 +1,140 @@
-echo "# My-site" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Amjadkhaled97/My-site.git
-git push -u origin main
+<!doctype html>
+<html>
+ <head>
+    <meta charset="UTF-8 " />
+  <title> "Amjad </title>
+      <meta name="description" content="this is my first virtual world" />
+      <meta name="viewport" content="width=device-width initial-scake=1"/><!--this is for applying to mobiles-->
+  
+  <link rel="stylesheet" href="/design.css">
+     
+   </head>
+ 
+ <body>
+  
+   <div>
+     <p><h1>welcome in amjad world</h1></p>
+    
+   </div>
+   
+    <div class="الشعر"> 
+    <h3>
+      <p class="البيت الاول">أنا من سموني أمجد ابن بسام ومحمد وعليّ وخالد
+      </p>
+       <hr>
+       <p class="البيت الثاني">
+      أنا المسلم الذي عاد ابو بكر وخالد
+      <hr>
+      </p>
+      <p class="البيت الثالث">
+     أنا الذي حيث أمر بخلقي الحسن يبقى ذكري خالد
+     </p>
+    </h3>
+    <hr>
+   </div>
+  
+  <img style="background-position: 50%" src="/FB_IMG_1669487001140.jpg" alt=" /FB_IMG_1669487001140.jpg" height="200px" width="300px">
+   <br>
+    <video class="وسائط" autoplay controls  width="350" height="225"  loop poster="/FB_IMG_1669487001140.jpg">
+    <source src="/اغنيه-المنتخب-الفرنسي-720.mp4" alt="aaa">
+     <track src="my file.att" kind="subtitles" label="arabic">
+     </video>
+    
+     <form id="1" action="amjad.php" method="POST">
+      <div>
+     
+     <label for="username">Username</label>
+     <input 
+      type="text"
+      required
+      name="username" id="username">
+      
+      <br>
+      <label for="email">Email</label>
+    <input
+      type="email" 
+      required 
+      name=" email" id="email">
+    
+      <br>
+      <label id="passwd">password</label>
+       <input 
+       type= "password"
+       required
+       name="password"
+       minlength="8"
+       maxlength="16" id="passwd">
+       <br>
+       <label>money you want to pay</label>
+         <input 
+       type="range"
+       name="money"
+       required 
+       min="0"
+       max="200"
+       step="20">
+       
+       <br>
+       <input id="windows" type="checkbox" name="os" required>
+       <label for="windows">windows</label>
+       <br>
+       <input id="lix" type="checkbox" name="os" required>
+        <label for="lix">linux</label>
+        <br>
+        <input type="radio" name="os" required id="Android">
+         <label for="Android">android</label>
+         <br>
+         <input id="ios" type="radio" name="os" required>
+         <label for="ios">ios</label>
+         <br> <input
+       type="submit"
+       value="save">
+       <input 
+       type="reset" 
+       value="Rest">
+     
+      </div>
+     </form>
+     <form id="2">
+       <br>
+       <label>syria</label> 
+       <input type="radio" name="country"><br>
+       <label>USA</label><br>
+       <input type="radio" name="country">
+       <label>Canada</label><br>
+       <input type="radio" name="country">
+       <label>Russia</label><br>
+       <input type="radio" name="country">
+      </form>
+       <a href="https://www.google.com">
+       Google
+        </a>
+       <table>
+         <caption>MARKS</caption>
+         <thead>
+          <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Marks</th>
+          </tr>
+         </thead>
+         <tbody>
+          <td>Amjad</td>
+          <td>Khaled</td>
+          <td>100</td>
+         </tbody>
+         <tr>
+          <td>Bassam</td>
+          <td>Khaled</td>
+          <td>250</td>
+         </tr>
+         <tfoot>
+           <tr>
+             <td colspan="2">results</td>
+             <td>350</td>
+            </tr>
+         </tfoot>
+       </table>
+     </body>
+
+   </html>
